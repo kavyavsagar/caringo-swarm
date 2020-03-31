@@ -1,1 +1,2 @@
-# caringo-swarm
+# Caringo Swarm
+
