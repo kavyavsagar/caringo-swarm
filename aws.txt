@@ -1,0 +1,42 @@
+DOMAIN : swarm
+
+Token ID: f4bf06bdd3d2a0e43ae86f833350dea4
+
+S3 Secret Key: kEUqM5KfJqEeyay9RcSlfJt4lGhSHb0C8Yxtg1EP
+
+Expiration Date: 2025-03-30
+
+Owner: admin
+
+Description: S3 server token and secret key
+
+------------------------------------------------------------------
+
+Domain : edc
+
+Token ID: 2d416d8c7ded95e6ef26c803eb7b6e4d
+
+S3 Secret Key: 98IjkoJVAkVrWmkbwgoc5wshTgpMrW5jm7HEdsfc
+
+Expiration Date: 2025-03-31
+
+Owner: admin
+
+Description: S3 token and secret for edc
+
+-------------------------------------------------------------------------
+Windows ENV
+
+setx AWS_ACCESS_KEY_ID 2d416d8c7ded95e6ef26c803eb7b6e4d
+
+setx AWS_SECRET_ACCESS_KEY 98IjkoJVAkVrWmkbwgoc5wshTgpMrW5jm7HEdsfc
+
+---------------------------------------------------------------------------
+AWS Config List
+
+Create : aws configure
+List : aws configure list
+SET : aws configure set default.s3.addressing_style path
+
+--------------------------------------------------------------------------
+execfile('C:\Python27\swarm\From_Start.py')
